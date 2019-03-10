@@ -29,3 +29,9 @@ The code also depends on:
 *    `numpy`
 *    `scipy`
 
+## Docker
+
+1. docker build . -t sand_spline
+1. docker run --rm -v ~/output:/code/res sand_spline python ./main-hlines.py
+
+
